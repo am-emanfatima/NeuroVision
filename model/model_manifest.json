@@ -1,0 +1,18 @@
+{
+  "file": "BRISC2025_EfficientNetB0_finetuned.keras",
+  "sha256": "1bf0d1d566e7b2912f861f74a80755e699814c9a448fa1b58438a157e376b310",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "output_classes": 4,
+  "class_order_in_application": [
+    "glioma",
+    "meningioma",
+    "no_tumor",
+    "pituitary"
+  ],
+  "class_order_verified_from_training_records": false,
+  "preprocessing": "RGB, bilinear resize to 224x224, float32 values 0..255; model contains its own EfficientNetB0 Rescaling layer"
+}

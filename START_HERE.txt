@@ -1,0 +1,21 @@
+NEUROVISION AI — PREMIUM MULTIPAGE STREAMLIT WEBSITE
+=================================================
+
+Your genuine EfficientNetB0 trained model is bundled in model/.
+The app has Home, MRI Analysis, About, Contact and Privacy & Ethics pages.
+
+1. Install Python 3.12 (64-bit) from python.org.
+2. Unzip this folder; open a command terminal INSIDE the extracted folder.
+3. Run: python -m pip install -r requirements.txt
+4. Run: streamlit run app.py
+5. Open the local URL shown in your terminal (usually http://localhost:8501).
+
+FOR STREAMLIT COMMUNITY CLOUD:
+* Upload the folder contents to your own GitHub repository.
+* Set the app main file to app.py.
+* Leave Python set to 3.12, or configure the hosting environment to Python 3.12.
+* To enable contact mail: follow .streamlit/secrets.example.toml and README.md.
+
+IMPORTANT: This is research-only software. It cannot diagnose or exclude a tumor.
+Configured label order is not independently verified against the training notebook.
+Do not submit real patient identifiers to public hosting without appropriate safeguards.

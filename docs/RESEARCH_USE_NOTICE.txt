@@ -1,0 +1,20 @@
+NeuroVision AI - Research and Education Use Notice
+
+NeuroVision AI uses a bundled machine learning model to assign one of four class
+labels to JPEG/PNG brain MRI images. It is NOT a medical device, not clinically
+validated for patient care, and must not be used for diagnosis, screening,
+triage, treatment, monitoring or decisions about any person.
+
+The model's scores are not medically calibrated probabilities. A "No Tumor"
+class output does not rule out disease. Imaging interpretation requires an
+appropriately qualified clinician and the relevant original medical images.
+
+The application runs classification on the Streamlit server hosting this app;
+images and entered patient details are transmitted to that host.
+The PDF includes entered patient data and optionally a reference image if
+explicitly selected. The CSV exports prediction scores without patient data.
+Neither document is a radiologist-signed clinical report.
+
+Before any public distribution, the distributor must verify class ordering,
+preprocessing, model performance, dataset/model licensing, applicable law,
+publisher identity and installer signing. See docs/MODEL_CARD.md.

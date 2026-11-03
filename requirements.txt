@@ -1,0 +1,8 @@
+# Supported deployment: Python 3.12 x64 (Streamlit Community Cloud default)
+# TensorFlow is bundled at deployment time, not inside this source ZIP.
+streamlit>=1.46,<2
+tensorflow==2.21.0
+Pillow>=11,<13
+reportlab>=4.2,<5
+altair>=5.0,<6
+pandas>=2.2,<3
